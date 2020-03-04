@@ -56,49 +56,30 @@
             <div class="col-sm-12 col-lg-12">
                 <h5 align="center" class="uppertextform">READY TO GET IN TOUCH</h5>
 				<h1 align="center" class="lowertextform">Make an Event Request</h1><br>
+				<form align="center" action="conn.php" method="post">
+					
+	<p  class="col-md-12 col-xl-6 offset-xl-3">
+    	<label for="Fname">Name</label>
+        <input  type="text" class="form-control" name="name" id="Fname" placeholder="Enter your name" required="required">
+ </p>
+									
+    <p class="col-md-12 col-xl-6 offset-xl-3">
+    	<label for="Emailad">Email</label>
+        <input type="text" class="form-control" name="email" id="Emailad" placeholder="Enter your email address" required="required">
+    </p>
+    <p class="col-xl-8 offset-xl-2">
+    	<label for="Message">Message</label>
+        <textarea input type="text"  class="form-control" name="msg" id="Message" class="form-control" required="required" rows="8" cols="25" placeholder="Enter your request"></textarea>
+    </p>
+    <input type="submit"  class="btn btn-primary btn-lg" value="Get in touch"><br>
+
+</form>
             </div>
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
-            <div class="well well-sm">
-                <form>
-                <div class="row">
-				
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                        </div>
-                        
-                    </div>
-					
-					<div class="col-md-6">
-					<div class="form-group">
-                            <label for="email">
-                                Email Address</label>
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
-                        </div>
-						</div>
-					
-                    <div  class="col-md-10 col-xl-12">
-                        <div class="form-group">
-                            <label for="label">
-                                Message</label>
-                            <textarea align="center" label="message" id="message" class="form-control" rows="8" cols="25" required="required"
-                                placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div align="center" class="col-md-12">
-                        <a class="btn btn-primary btn-lg" href="servicephp.php" role="button">Get in Touch</a><br></br>
+
+
                     </div>
                 </div>
                 </form>
@@ -106,7 +87,7 @@
         </div>
     </div>
 </div>
-
+<br><br>
 <div class="container">  
     <div class="body">
 
