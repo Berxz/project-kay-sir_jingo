@@ -14,6 +14,7 @@
 </head>
 
 <body>
+	
     <section class="header">
         <nav class="navbar navbar-expand-sm fixed-top py-3">
             <a href="#" class="navbar-brand logo"><img src="image/logo.png">Francisco's Catering & Refreshment</a>
@@ -26,7 +27,7 @@
                         <a href="#" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">SERVICES</a>
+                        <a  href="#" class="nav-link">SERVICES</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">ABOUT US</a>
@@ -42,14 +43,14 @@
 		<!-- jumbotron -->
 		<div class="jumbotron jumbotron-fluid">
   <div class="container">    
-    <p class="jumbotext">Services</p><br>
+    <p class="jumbotext" style="font-size:5vw;">Services</p><br>
 	<p class="text-center">
-    <a class="btn btn-primary btn-lg" href="#" role="button">View Menu</a>
+    <a class="btn btn-primary btn-lg"  href="#" role="button">View Menu</a>
 	<a class="btn btn-primary btn-lg" href="#" role="button">View Packages</a>
   </p>
   </div>
 </div>
-
+</div>
 <div class="jumbotronform">
     <div class="container">
         <div class="row">
@@ -71,32 +72,38 @@
     	<label for="Message">Message</label>
         <textarea input type="text"  class="form-control" name="msg" id="Message" class="form-control" required="required" rows="8" cols="25" placeholder="Enter your request"></textarea>
     </p>
-    <input type="submit"  class="btn btn-primary btn-lg" value="Get in touch"><br>
-
+    <input type="submit"  class="btn btn-primary btn-lg" value="Get in touch"><br><br><br>
+	
+	</div>
+	</div>
 </form>
-            </div>
-        </div>
+			
+			
+  <div id="index-gallery">
+    <div align="center" class="inline-block">
+
+        <img src ="party.jpg" style="width:250px;height:250px;">
+
+
+        <img src ="anniv.jpg"style="width:250px;height:250px;">
+		
+        <img src ="wedding.jpg"style="width:250px;height:250px;"><br><br><br>
+		
+		<img src ="cater.jpg">
+
     </div>
-</div>
+
+
+    
+
 
 
                     </div>
-                </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
+                
+                
 <br><br>
+
 <div class="container">  
-    <div class="body">
-
-    </div>
-
-
-
-
-
     <!-- Footer -->
     <section id="footer">
         <div class="container">
