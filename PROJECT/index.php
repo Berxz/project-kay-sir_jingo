@@ -77,7 +77,9 @@
 	</div>
 	</div>
 </form>
-			
+	</div>
+		</div>
+
 			
 
 
@@ -94,21 +96,23 @@ table, th, td {
   text-align: center;
 }
 </style>
-</head>
+
 <body>
 
 
-  <div id="index-gallery">
-    <div align="center" class="inline-block">
-<table>
+
+<table align="center">
   <colgroup>
     <col span="2" >
 
   </colgroup>
-  <tr>
+  <tr >
+
     <th><img src ="party.jpg" style="width:250px;height:250px;"></th>
     <th><img src ="anniv.jpg"style="width:250px;height:250px;"></th>
-    <th><img src ="wedding.jpg"style="width:250px;height:250px;"></th>
+    <th><img src ="wedding.jpg"style="width:250px;height:250px;"></th><br>
+	
+	
   </tr>
   <tr>
     <td>Private Party Themes</td>
@@ -116,22 +120,24 @@ table, th, td {
     <td>Wedding Catering Services</td>
   </tr>
 
-</table><br><br>
 
+
+</table> <br><br>
+<img src ="cater.jpg" class="center">
 </body>
+
+
 		
-		<img src ="cater.jpg">
-		
 
 
-    </div>
 
+    
 
     
 
 
 
-                    </div>
+                  
                 
                 
 <br><br>
