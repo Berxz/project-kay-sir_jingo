@@ -79,17 +79,50 @@
 </form>
 			
 			
+
+
+        
+
+
+        
+		
+        
+		
+<style>
+table, th, td {
+  
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
   <div id="index-gallery">
     <div align="center" class="inline-block">
+<table>
+  <colgroup>
+    <col span="2" >
 
-        <img src ="party.jpg" style="width:250px;height:250px;">
+  </colgroup>
+  <tr>
+    <th><img src ="party.jpg" style="width:250px;height:250px;"></th>
+    <th><img src ="anniv.jpg"style="width:250px;height:250px;"></th>
+    <th><img src ="wedding.jpg"style="width:250px;height:250px;"></th>
+  </tr>
+  <tr>
+    <td>Private Party Themes</td>
+    <td>Anniversary Celebrations</td>
+    <td>Wedding Catering Services</td>
+  </tr>
 
+</table><br><br>
 
-        <img src ="anniv.jpg"style="width:250px;height:250px;">
-		
-        <img src ="wedding.jpg"style="width:250px;height:250px;"><br><br><br>
+</body>
 		
 		<img src ="cater.jpg">
+		
+
 
     </div>
 
