@@ -11,9 +11,11 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <title>Services</title>
+	
+
 </head>
 
-<body>
+
 	
     <section class="header">
         <nav class="navbar navbar-expand-sm fixed-top py-3">
@@ -76,9 +78,10 @@
 	
 	</div>
 	</div>
-</form>
+
 	</div>
 		</div>
+		</form>
 
 			
 
@@ -88,43 +91,65 @@
 
         
 		
-        
-		
-<style>
-table, th, td {
   
-  text-align: center;
-}
-</style>
 
+<style>
+.mySlides {display:none;}
+</style>
 <body>
 
 
 
-<table align="center">
-  <colgroup>
-    <col span="2" >
+<div align="center" class="w3-content w3-display-container">
 
-  </colgroup>
-  <tr >
+<div class="w3-display-container mySlides">
+  <img src="party.jpg" style="width:45%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Party
+  </div>
+</div>
 
-    <th><img src ="party.jpg" style="width:250px;height:250px;"></th>
-    <th><img src ="anniv.jpg"style="width:250px;height:250px;"></th>
-    <th><img src ="wedding.jpg"style="width:250px;height:250px;"></th><br>
-	
-	
-  </tr>
-  <tr>
-    <td>Private Party Themes</td>
-    <td>Anniversary Celebrations</td>
-    <td>Wedding Catering Services</td>
-  </tr>
+<div class="w3-display-container mySlides">
+  <img src="anniv.jpg" style="width:45%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Anniversary
+  </div>
+</div>
 
+<div class="w3-display-container mySlides">
+  <img src="wedding.jpg" style="width:45%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Wedding
+  </div>
+</div>
 
+<button  class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
-</table> <br><br>
-<img src ="cater.jpg" class="center">
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 </body>
+
 
 
 		
